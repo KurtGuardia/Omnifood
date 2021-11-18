@@ -28,7 +28,7 @@ Paragraph default: 1.6
 - Tints: #fdf2e9 - #fae5d3 - #eb984e
 - Shades: #cf711f - #45260a
 - Accents:
-- Gray: #555 - #333 - 6f6f6f (lightest grey on #fdf2e9)
+- Gray: #333 - #555 - 6f6f6f (lightest grey on #fdf2e9) - #767676 (lightest gray on white)
 
 --- 05 SHADOWS
 
@@ -91,6 +91,10 @@ body {
 
 .grid--4-cols {
   grid-template-columns: repeat(4, 1fr);
+}
+
+.grid--5-cols {
+  grid-template-columns: repeat(5, 1fr);
 }
 
 .grid--center-v {
@@ -246,9 +250,4 @@ link:active {
 
 strong {
   font-weight: 500;
-}
-
-.cta *:focus {
-  outline: none;
-  box-shadow: 0 0 0 0.8rem #fdf2e97e;
 }
